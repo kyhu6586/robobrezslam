@@ -1,0 +1,13 @@
+To compile the package for pip3:
+cd {path to breezyslam}/python
+sudo python3 setup.py install
+
+To generate the map:
+cd {path to breezyslam}/examples
+make pytest
+
+~~~~To add a new LiDAR device~~~~
+Edit the sensor.py file
+
+
+When done, compile the package again using the sudo command
